@@ -16,6 +16,7 @@ npm install -g @mermaid-js/mermaid-cli
 Теперь вы можете запустить программу из командной строки. Откройте терминал (или командную строку) и выполните следующую команду:
 
 python git_graph_visualizer.py <path_to_mermaid_cli> <path_to_git_repo> -o <output_directory>
+
 <path_to_mermaid_cli> — путь к исполняемому файлу mermaid-cli. Если вы установили его глобально с помощью npm, просто укажите mermaid.
 <path_to_git_repo> — путь к вашему Git репозиторию.
 <output_directory> — (необязательно) путь к директории, где вы хотите сохранить граф. Если не указать, граф будет сохранен в текущем каталоге.
