@@ -18,9 +18,13 @@ npm install -g @mermaid-js/mermaid-cli
 python git_graph_visualizer.py <path_to_mermaid_cli> <path_to_git_repo> -o <output_directory>
 
 <path_to_mermaid_cli> — путь к исполняемому файлу mermaid-cli. Если вы установили его глобально с помощью npm, просто укажите mermaid.
+
 <path_to_git_repo> — путь к вашему Git репозиторию.
+
 <output_directory> — (необязательно) путь к директории, где вы хотите сохранить граф. Если не указать, граф будет сохранен в текущем каталоге.
-Пример команды
+
+Пример команды:
+
 Если mermaid-cli установлен глобально и ваш Git репозиторий находится в каталоге my_repo, команда будет выглядеть так:
 
 python git_graph_visualizer.py mermaid my_repo -o ./output
